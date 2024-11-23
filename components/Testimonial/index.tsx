@@ -8,11 +8,11 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { motion } from "framer-motion";
-import SingleTestimonial from "./SingleTestimonial";
-import { testimonialData } from "./testimonialData";
+import SingleMember from "./SignleMember";
+import { memberData } from "./memberData";
 import { Autoplay, Pagination } from "swiper/modules";
 
-const Testimonial = () => {
+const Member = () => {
   return (
     <>
       <section>
@@ -21,9 +21,9 @@ const Testimonial = () => {
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                title: `Membres`,
+                subtitle: `Notre équipe`,
+                description: `Info concernant les membres.`,
               }}
             />
           </div>
@@ -73,9 +73,9 @@ const Testimonial = () => {
                 },
               }}
             >
-              {testimonialData.map((review) => (
+              {memberData.map((review) => (
                 <SwiperSlide key={review?.id}>
-                  <SingleTestimonial review={review} />
+                  <SingleMember review={review} />
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -86,4 +86,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Member;

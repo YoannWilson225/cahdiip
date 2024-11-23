@@ -58,7 +58,7 @@ const menuData: Menu[] = [
     id: 4,
     title: "Axes de recherches",
     newTab: false,
-    path: "/axederecherche",
+    path: "/#axederecherche",
   },
   {
     id: 4,
