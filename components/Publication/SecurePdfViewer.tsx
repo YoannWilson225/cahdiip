@@ -4,7 +4,11 @@ import React from "react";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
-const SecurePdfViewer = ({ pdfUrl }: { pdfUrl: string }) => {
+interface SecurePdfViewerProps {
+  pdfUrl: string;
+}
+
+const SecurePdfViewer: React.FC<SecurePdfViewerProps> = ({ pdfUrl }) => {
   return (
     <div
       className="secure-pdf-viewer"

@@ -128,13 +128,9 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      En cliquant sur la case à cocher, vous acceptez d'utiliser
-                      nos conditions d'utilisation du « Formulaire » Et
-                      consentez à l'utilisation de cookies dans votre
-                      navigateur.
+                     Acceptez les cooquies
                     </label>
                   </div>
-
                   <button
                     aria-label="send message"
                     className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"

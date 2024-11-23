@@ -2,10 +2,12 @@
 
 import { Publication } from "@/types/publication";
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FiFileText } from "react-icons/fi";
-import SecurePdfViewer from "./SecurePdfViewer";
+
+const SecurePdfViewer = dynamic(() => import("./SecurePdfViewer"), { ssr: false });
 
 const PublicationItem = ({ publication }: { publication: Publication }) => {
   const { thumbnail, title, metadata, pdfUrl } = publication;
@@ -33,10 +35,7 @@ const PublicationItem = ({ publication }: { publication: Publication }) => {
         viewport={{ once: true }}
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
-        <div
-          className="relative block aspect-[368/239] cursor-pointer"
-          onClick={() => setIsViewerOpen(true)} // Ouvre le PDF au clic sur l'image
-        >
+        <div className="relative block aspect-[368/239]">
           <Image src={thumbnail} alt={title} fill className="object-cover" />
         </div>
         <div className="px-4">
@@ -44,7 +43,7 @@ const PublicationItem = ({ publication }: { publication: Publication }) => {
             <FiFileText className="mr-2 text-primary" />
             <button
               className="hover:text-primary dark:hover:text-primary underline"
-              onClick={() => setIsViewerOpen(true)} // Ouvre aussi au clic sur le titre
+              onClick={() => setIsViewerOpen(true)}
             >
               {title}
             </button>
@@ -53,24 +52,17 @@ const PublicationItem = ({ publication }: { publication: Publication }) => {
         </div>
       </motion.div>
 
-      {/* Modal pour le PDF */}
       {isViewerOpen && (
         <div
-          className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-start justify-center"
-          onClick={() => setIsViewerOpen(false)} // Ferme le modal en cliquant sur l'arrière-plan
-          style={{
-            paddingTop: "5rem", // Ajoute un espace de 5rem en haut
-          }}
+          className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center"
+          onClick={() => setIsViewerOpen(false)} // Ferme le modal en cliquant sur le fond
         >
           <div
-            className="relative w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden"
-            style={{
-              maxHeight: "90vh", // Limite la hauteur pour éviter qu'il dépasse l'écran
-            }}
-            onClick={(e) => e.stopPropagation()} // Empêche la fermeture au clic sur le modal
+            className="relative w-full max-w-4xl p-4 bg-white rounded-lg shadow-lg overflow-hidden"
+            onClick={(e) => e.stopPropagation()} // Empêche la fermeture en cliquant sur le modal
           >
             <button
-              className="absolute top-3 right-3 bg-gray-800 text-white px-3 py-1 rounded focus:outline-none"
+              className="absolute top-2 right-2 bg-gray-800 text-white px-3 py-1 rounded"
               onClick={() => setIsViewerOpen(false)}
             >
               Fermer
