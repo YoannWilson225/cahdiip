@@ -64,13 +64,13 @@ const menuData: Menu[] = [
     id: 4,
     title: "Membres",
     newTab: false,
-    path: "/membres",
+    path: "/#membre",
   },
   {
     id: 4,
     title: "Contacts",
     newTab: false,
-    path: "/support",
+    path: "/#contact",
   },
 ];
 

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -39,7 +40,7 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo-dark.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -318,7 +319,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} CAHDIIP. All rights reserved
+                &copy; {new Date().getFullYear()} <Link href={"https://cahdiip.vercel.app/"}>CAHDIIP</Link> . All rights reserved
               </p>
             </motion.div>
 
