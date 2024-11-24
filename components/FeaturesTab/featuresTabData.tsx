@@ -4,27 +4,20 @@ const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
     title: "Actualités Scientifiques",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/scientifique.jpg",
-    imageDark: "/images/features/scientifique.jpg",
+    desc1: `Programme COLLOQUE Faire et défaire les rois  (novembre 2024).`,
+    desc2: ``,
+    pdfUrl: "/pdf/programme COLLOQUE Faire et défaire les rois  (novembre 2024).pdf",
+    thumbnail: "/images/pdf-thumbnail-scientifiques.png", // Assurez-vous que le chemin est valide
   },
   {
     id: "tabTwo",
     title: "Actualités Académiques",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/academia.jpg",
-    imageDark: "/images/features/academia.jpg",
+    desc1: `Thèse finale Amettey, après prise en compte des observations`,
+    desc2: `definitifs des rapports 11 nov 24`,
+    pdfUrl: "/pdf/Thèse_finale__Amettey,_après_prise_en_compte_des_observations_definitifs_des_rapports_11_nov_24[1]_1-1 (1).pdf",
+    thumbnail: "/images/pdf-thumbnail-academique.png", // Assurez-vous que le chemin est valide
   },
-  // {
-  //   id: "tabThree",
-  //   title: "Functional Blog, DB, Auth and Many More",
-  //   desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-  //   desc2: `Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-  //   image: "/images/features/features-light-01.png",
-  //   imageDark: "/images/features/features-dark-01.svg",
-  // },
 ];
+
 
 export default featuresTabData;

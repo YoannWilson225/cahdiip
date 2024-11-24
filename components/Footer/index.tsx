@@ -88,7 +88,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Accueil
@@ -96,7 +96,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#scientifiques"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Actualités
@@ -104,7 +104,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#publications"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Publications
@@ -112,7 +112,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#axederecherche"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Axes de recherches
@@ -120,7 +120,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#membre"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Membres
@@ -128,7 +128,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#contact"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Contacts

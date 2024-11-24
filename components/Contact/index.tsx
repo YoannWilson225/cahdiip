@@ -4,10 +4,6 @@ import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
-  /**
-   * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
-   * Reason: To fix rehydration error
-   */
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -61,8 +57,7 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
+                action=""
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
@@ -132,7 +127,7 @@ const Contact = () => {
                     </label>
                   </div>
                   <button
-                    aria-label="send message"
+                    aria-label="Envoyer"
                     className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Envoyer !
