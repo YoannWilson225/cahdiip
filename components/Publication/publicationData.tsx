@@ -3,7 +3,7 @@ import { Publication } from "@/types/publication";
 const PublicationData: Publication[] = [
   {
     _id: 1,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "Les Cahiers du CAHDIIP n° 4",
     pdfUrl: "/pdf/Les Cahiers du CAHDIIP n° 4.pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
@@ -11,7 +11,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 2,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "Les Cahiers du CAHDIIP n° 5",
     pdfUrl: "/pdf/Les Cahiers du CAHDIIP n°5.pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
@@ -19,7 +19,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 3,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "NBBS Revue Les cahiers du cahdiip N°3",
     pdfUrl: "/pdf/NBBS Revue Les cahiers du cahdiip N°3 (2) (1).pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
@@ -27,7 +27,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 4,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "Numero 1 REVUE CAHDIIP",
     pdfUrl: "/pdf/numero 1 REVUE CAHDIIP (3) (1) (1).pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
@@ -52,7 +52,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 7,
-    category: "Ouvrages",
+    category: "Archives",
     title: "Les troisièmes journées du cahdiip",
     pdfUrl: "/pdf/Les troisièmes journées du cahdiip.pdf",
     thumbnail: "/images/pdf-thumbnail-02.png",
@@ -60,7 +60,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 8,
-    category: "Ouvrages",
+    category: "Archives",
     title: "THESE MME. AOULE EPOUSE CISSE_PAGE DE GARDE",
     pdfUrl: "/pdf/THESE MME. AOULE EPOUSE CISSE_PAGE DE GARDE.pdf",
     thumbnail: "/images/test.png",
@@ -68,7 +68,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 9,
-    category: "Archives",
+    category: "Les cahiers du cahdiip",
     title: "Mot du directeur de la revue",
     pdfUrl: "/pdf/Mot du directeur de la revue.pdf",
     thumbnail: "/images/pdf-thumbnail-03.png",
@@ -76,13 +76,44 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 10,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "REVUE CAHDIIP NUMERO SPECIAL Janvier 2021",
     pdfUrl: "/pdf/REVUE CAHDIIP NUMERO SPECIAL Janvier 2021 (1) (1) (1).pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
     metadata: "REVUE CAHDIIP NUMERO SPECIAL Janvier 2021.",
   },
-  // Ajoutez d'autres publications ici
+  {
+    _id: 11,
+    category: "Ouvrages",
+    title: "ETAT CIVIL GOUVERNANCE PUBLIQUE Colloque international",
+    pdfUrl:
+      "/pdf/ETAT CIVIL GOUVERNANCE PUBLIQUE Colloque international (1).pdf",
+    thumbnail: "/images/pdf-ouvrages-01.png",
+    metadata: "ETAT CIVIL GOUVERNANCE PUBLIQUE Colloque international.",
+  },
+  {
+    _id: 12,
+    category: "Ouvrages",
+    title: "Sorcellerie, pratiques et criminalisation",
+    pdfUrl: "/pdf/Sorcellerie, pratiques et criminalisation  (24X2024) (3).pdf",
+    thumbnail: "/images/pdf-ouvrages-02.png",
+    metadata: "Sorcellerie, pratiques et criminalisation.",
+  },
+  {
+    _id: 13,
+    category: "Ouvrages",
+    title: "MELANGES LEGRE",
+    pdfUrl: "/pdf/MELANGES LEGRE (2).pdf",
+    thumbnail: "/images/pdf-ouvrages-03.png",
+    metadata: "MELANGES LEGRE.",
+  },  {
+    _id: 14,
+    category: "Ouvrages",
+    title: "ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE",
+    pdfUrl: "/pdf/ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE.pdf",
+    thumbnail: "/images/pdf-ouvrages-04.png",
+    metadata: "ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE.",
+  },
 ];
 
 export default PublicationData;

@@ -173,9 +173,9 @@ const Contact = () => {
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Notre localisation
+                  Adresse postale
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>22 BP M, 1113 ABIDJAN 22</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
@@ -190,7 +190,7 @@ const Contact = () => {
                   Téléphone
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">(+225) 05 05 42 28 53 / 07 07 44 23 86 / 05 06 26 25 20</a>
                 </p>
               </div>
             </motion.div>

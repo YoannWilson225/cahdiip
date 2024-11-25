@@ -12,8 +12,8 @@ const featuresTabData: FeatureTab[] = [
   {
     id: "tabTwo",
     title: "Actualités Académiques",
-    desc1: `Thèse finale Amettey, après prise en compte des observations`,
-    desc2: `definitifs des rapports 11 nov 24`,
+    desc1: `Soutenance de thèse`,
+    desc2: ``,
     pdfUrl: "/pdf/Thèse_finale__Amettey,_après_prise_en_compte_des_observations_definitifs_des_rapports_11_nov_24[1]_1-1 (1).pdf",
     thumbnail: "/images/pdf-thumbnail-academique.png", // Assurez-vous que le chemin est valide
   },
