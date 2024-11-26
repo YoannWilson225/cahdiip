@@ -3,18 +3,23 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "Histoire de la pensée juridique",
+    ans: "Étude de l'évolution des idées et théories ayant structuré le droit à travers les époques.",
   },
   {
     id: 2,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "Droit foncier et histoire des espaces",
+    ans: "Analyse des lois sur la propriété des terres et leur impact sur l’organisation des territoires.",
   },
   {
     id: 3,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "Histoire des droits économiques et financiers",
+    ans: "Examen de l’évolution des normes encadrant les activités économiques et financières.",
+  },
+  {
+    id: 4,
+    quest: "Droits traditionnels Africains et anthropologique sociale et politique",
+    ans: "Étude des systèmes juridiques coutumiers africains et de leur interaction avec le droit moderne.",
   },
 ];
 
