@@ -36,10 +36,10 @@ const PublicationData: Publication[] = [
   {
     _id: 5,
     category: "Les cahiers du cahdiip",
-    title: "Les Cahiers du CAHDIIP numéro VII",
-    pdfUrl: "/pdf/Les Cahiers du CAHDIIP numéro VII.pdf",
+    title: "Les Cahiers du CAHDIIP 8 et 9",
+    pdfUrl: "/pdf/Les Cahiers du CAHDIIP 8 et 9.pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
-    metadata: "Les Cahiers du CAHDIIP numéro VII.",
+    metadata: "Les Cahiers du CAHDIIP 8 et 9.",
   },
   {
     _id: 6,
@@ -106,13 +106,22 @@ const PublicationData: Publication[] = [
     pdfUrl: "/pdf/MELANGES LEGRE (2).pdf",
     thumbnail: "/images/pdf-ouvrages-03.png",
     metadata: "MELANGES LEGRE.",
-  },  {
+  },
+  {
     _id: 14,
     category: "Ouvrages",
     title: "ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE",
     pdfUrl: "/pdf/ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE.pdf",
     thumbnail: "/images/pdf-ouvrages-04.png",
     metadata: "ACTES DU COLLOQUE FONCIER ET POUVOIR POLITIQUE.",
+  },
+  {
+    _id: 15,
+    category: "Archives",
+    title: "Les Cahiers du CAHDIIP numéro VII",
+    pdfUrl: "/pdf/Les Cahiers du CAHDIIP numéro VII.pdf",
+    thumbnail: "/images/pdf-thumbnail-01.png",
+    metadata: "Les Cahiers du CAHDIIP numéro VII.",
   },
 ];
 
