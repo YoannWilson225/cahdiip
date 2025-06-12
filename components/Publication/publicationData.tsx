@@ -35,7 +35,7 @@ const PublicationData: Publication[] = [
   },
   {
     _id: 5,
-    category: "Les cahiers du cahdiip",
+    category: "Archives",
     title: "Les Cahiers du CAHDIIP 8 et 9",
     pdfUrl: "/pdf/Les Cahiers du CAHDIIP 8 et 9.pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
@@ -122,6 +122,14 @@ const PublicationData: Publication[] = [
     pdfUrl: "/pdf/Les Cahiers du CAHDIIP numéro VII.pdf",
     thumbnail: "/images/pdf-thumbnail-01.png",
     metadata: "Les Cahiers du CAHDIIP numéro VII.",
+  },
+  {
+    _id: 16,
+    category: "Les cahiers du cahdiip",
+    title: "Les Cahiers du CAHDIIP N° 10 SPECIAL",
+    pdfUrl: "/pdf/Les Cahiers du CAHDIIP N° 10 SPECIAL.pdf",
+    thumbnail: "/images/pdf-thumbnail-01.png",
+    metadata: "Les Cahiers du CAHDIIP N° 10 SPECIAL.",
   },
 ];
 
