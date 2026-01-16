@@ -2,6 +2,22 @@ import { Publication } from "@/types/publication";
 
 const PublicationData: Publication[] = [
   {
+    _id: 17,
+    category: "Les cahiers du cahdiip",
+    title: "Les Cahiers du CAHDIIP 11",
+    pdfUrl: "/pdf/Les Cahiers du CAHDIIP 11.pdf",
+    thumbnail: "/images/pdf-thumbnail-01.png",
+    metadata: "Les Cahiers du CAHDIIP 11.",
+  },
+  {
+    _id: 18,
+    category: "Les cahiers du cahdiip",
+    title: "Les Cahiers du CAHDIIP 12",
+    pdfUrl: "/pdf/Les Cahiers du CAHDIIP 12.pdf",
+    thumbnail: "/images/pdf-thumbnail-01.png",
+    metadata: "Les Cahiers du CAHDIIP 12.",
+  },
+  {
     _id: 1,
     category: "Archives",
     title: "Les Cahiers du CAHDIIP n° 4",
